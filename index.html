@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripadvisor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="section__one">
+        <div class="section__one_title">
+            <img src="images/Title_img.svg" alt="">
+        </div>
+        <div class="section__one_options">
+            <p class="section__one_options1">Discover</p>
+            <p class="section__one_options1">Trips</p>
+            <p class="section__one_options1">Review</p>
+            <p class="section__one_options2">Forums</p>
+        </div>
+        <div class="section__one_signin">
+            <p>🌐 | INR</p>
+            <button>Sign in</button>
+        </div>
+
+    </div>
+    <div class="bbb">
+
+    </div>
+
+    <div class="stream_blc">
+        <!-- Hidden Inputs First -->
+        <input type="radio" name="stream2" id="searchall" checked hidden>
+        <input type="radio" name="stream2" id="hotels" hidden>
+        <input type="radio" name="stream2" id="things" hidden>
+        <input type="radio" name="stream2" id="restaurants" hidden>
+        <input type="radio" name="stream2" id="flights" hidden>
+        <input type="radio" name="stream2" id="holiday" hidden>
+
+        <!-- Stream content + toggle buttons in visual order -->
+        <div class="stream_visual">
+            <div class="stream">
+                <h1 class="where">Where to?</h1>
+                <h1 class="stay">Stay somewhere great</h1>
+                <h1 class="fun">Do something fun</h1>
+                <h1 class="eat">Find places to eat</h1>
+                <h1 class="flight">Find the best flight</h1>
+                <h1 class="rent">Explore places to rent</h1>
+            </div>
+
+            <div class="stream2">
+                <label for="searchall" class="stream2_toggle">
+                    <i class="fa-solid fa-house"></i>
+                    <span>Search all</span>
+                    <div class="underline"></div>
+                </label>
+
+                <label for="hotels" class="stream2_toggle">
+                    <i class="fa-solid fa-bed"></i>
+                    <span>Hotels</span>
+                    <div class="underline"></div>
+                </label>
+
+                <label for="things" class="stream2_toggle">
+                    <i class="fa-solid fa-camera"></i>
+                    <span>Things to do</span>
+                    <div class="underline"></div>
+                </label>
+
+                <label for="restaurants" class="stream2_toggle">
+                    <i class="fa-solid fa-utensils"></i>
+                    <span>Restaurants</span>
+                    <div class="underline"></div>
+                </label>
+
+                <label for="flights" class="stream2_toggle">
+                    <i class="fa-solid fa-plane-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
+                    <span>Flights</span>
+                    <div class="underline"></div>
+                </label>
+
+                <label for="holiday" class="stream2_toggle">
+                    <i class="fa-solid fa-mountain-sun"></i>
+                    <span>Holiday Homes</span>
+                    <div class="underline"></div>
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <div class="search">
+        <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+        <input placeholder="Places to go, Things to do, Food to eat....">
+        <button>Search</button>
+    </div>
+
+
+    <div class="profile-box">
+        <div class="profile-box_img">
+            <img src="images/boximage1.jpg" alt="">
+            <img src="images/boximage2.jpg" alt="">
+            <img src="images/boximage3.jpg" alt="">
+            <img src="images/boximage4.jpg" alt="">
+            <button>
+                @tripadv123
+            </button>
+        </div>
+        <div class="profile-box_text">
+            <h1>Book the best part of your trip</h1>
+            <h5>Browse our selection of the best hotels</h5>
+            <button>Find things to do</button>
+        </div>
+    </div>
+    <div class="section__two">
+        <h3>Find things to do by interest</h3>
+        <p>Whatever you're into, we’ve got it</p>
+    </div>
+    <div class="sec2__container">
+        <div class="sec2__blocks">
+            <img src="images/sec2_img1.jpg" alt="">
+            <h2>Outdoors</h2>
+        </div>
+        <div class="sec2__blocks">
+            <img src="images/sec2__img2.jpg" alt="">
+            <h2>Food</h2>
+        </div>
+        <div class="sec2__blocks">
+            <img src="images/sec2__img3.jpg" alt="">
+            <h2>Culture</h2>
+        </div>
+        <div class="sec2__blocks">
+            <img src="images/sec2__img4.jpg" alt="">
+            <h2>Water</h2>
+        </div>
+
+
+    </div>
+
+    <div class="ad">
+        <img src="images/Ad-img1.jpg" alt="">
+        <img src="images/Ad-img4.jpg" alt="">
+        <img src="images/As-img2.jpg" alt="">
+
+    </div>
+
+    <div class="section__three">
+        <h3>Things to do--right now</h3>
+        <p>seasonal faves you don't want to miss</p>
+    </div>
+    <div class="sec3__container">
+        <div class="sec3__blocks">
+            <img class="pics" src="images/sec3_img1.jpg" alt="">
+            <img class="heart" src="images/heart.png" alt="">
+            <p class="green">Sorrento</p>
+            <h4>Small-group boat tour of the Amalfi Coast from Sorrento</h4>
+            <p>4.8🟢🟢🟢🟢 (316)</p>
+            <h5>from $2500 per adult</h5>
+        </div>
+
+        <div class="sec3__blocks">
+            <img class="pics" src="images/sec3_img2.jpg" alt="">
+            <img class="heart" src="images/heart.png" alt="">
+            <p class="green">Albufeira</p>
+            <h4>Dolphins Search and Benagil caves from Albufeira</h4>
+            <p>4.9🟢🟢🟢🟢🟢(3,237)</p>
+            <h5>from $550 per adult</h5>
+        </div>
+
+        <div class="sec3__blocks">
+            <img class="pics" src="images/sec3__img3.jpg" alt="">
+            <img class="heart" src="images/heart.png" alt="">
+            <p class="green">Calgary</p>
+            <h4>Explore banf National Park With Our Premium Day Tour</h4>
+            <p>5🟢🟢🟢🟢🟢 (253)</p>
+            <h5>from $1250 per adult</h5>
+        </div>
+
+        <div class="sec3__blocks">
+            <img class="pics" src="images/sec3__img4.jpg" alt="">
+            <img class="heart" src="images/heart.png" alt="">
+            <p class="green">Jackson</p>
+            <h4>Whitewater Rafting in Jackson Hole: Small Boat Excitement</h4>
+            <p>4.9🟢🟢🟢🟢🟢 (456)</p>
+            <h5>from $1650 per adult</h5>
+        </div>
+
+    </div>
+    <div class="section__four">
+        <div class="section__four__title">
+            <h4>Inspiration to get you going</h4>
+
+        </div>
+        <div class="sec4__container">
+            <div class="sec4__blocks">
+                <img class="sec4__images" src="images/sec4_img1.jpg" alt="">
+                <img class="heart1" src="images/heart.png" alt="">
+                <h4>Where to stargaze around the world, from Utah to Dubai</h4>
+            </div>
+            <div class="sec4__blocks">
+                <img class="sec4__images" src="images/sec4_img2.jpg" alt="">
+                <img class="heart1" src="images/heart.png" alt="">
+                <h4>Load up on art in Paris, NYC and other hot spots</h4>
+            </div>
+            <div class="sec4__blocks">
+                <img class="sec4__images" src="images/sec4_img3.jpg" alt="">
+                <img class="heart1" src="images/heart.png" alt="">
+                <h4>13 Cities, 13 Unbelievable foods trips</h4>
+            </div>
+
+        </div>
+    </div>
+    <div class="section__five__title">
+        <h4>Iconic places you need to see</h4>
+    </div>
+    <div class="section__five">
+
+        <div class="sec5__container">
+            <div class="sec5__blocks">
+                <img src="images/sec5_img1.jpg" alt="">
+                <h2>Londin,UK</h2>
+            </div>
+            <div class="sec5__blocks">
+                <img src="images/sec5_img2.jpg" alt="">
+                <h2>Florence,Italy</h2>
+            </div>
+            <div class="sec5__blocks">
+                <img src="images/sec5_img3.jpg" alt="">
+                <h2>New york city,NY</h2>
+            </div>
+            <div class="sec5__blocks">
+                <img src="images/sec5_img4.jpg" alt="">
+                <h2>Madrid,Spain</h2>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="ad">
+        <img src="images/Ad-img1.jpg" alt="">
+        <img src="images/Ad-img4.jpg" alt="">
+        <img src="images/As-img2.jpg" alt="">
+
+    </div>
+    <div class="section__six">
+        <div class="sec6__container">
+            <div>
+                <img class="sec6__titleing" src="images/sec6_img.jpg" alt="">
+            </div>
+            <div class="sec6__contents">
+                <img class="logo" src="images/Logo.png" alt="">
+                <p>Sponsored by Wanderlab</p>
+                <h1>Watch The Wanderer</h1>
+                <p>Tripadvisor’s award-winning travel series, now streaming on Amazon Prime Video</p>
+                <button> Learn more </button>
+            </div>
+        </div>
+
+    </div>
+    <div class="section__seven">
+        <h3>Summer Places--book now</h3>
+        <p>“Exclusive weekend sale — ends Sunday!” </p>
+    </div>
+    <div class="sec7__container">
+        <div class="sec7__blocks">
+            <img class="pics" src="images/sec7_img1.jpg" alt="">
+            <img class="heart" src="images/heart.png" alt="">
+            <p class="green">Majorca</p>
+            <h4>Private sailing with Paella and Tapas in Palma</h4>
+            <p>4.9🟢🟢🟢🟢🟢 (102)</p>
+            <h5>from $800 per adult</h5>
+        </div>
+
+        <div class="sec7__blocks">
+            <img class="pics" src="images/sec7_img2.jpg" alt="">
+            <img class="heart" src="images/heart.png" alt="">
+            <p class="green">Dubrovnik</p>
+            <h4>X-Adventure Sea Kayaking Half Day Tour in Dubrovnik</h4>
+            <p>4.9🟢🟢🟢🟢🟢(1,092)</p>
+            <h5>from $550 per adult</h5>
+        </div>
+
+        <div class="sec7__blocks">
+            <img class="pics" src="images/sec7_img3.jpg" alt="">
+            <img class="heart" src="images/heart.png" alt="">
+            <p class="green">Reykjavik</p>
+            <h4>Whale Watching Tour with Professional Guide from Reykjavik</h4>
+            <p>4.4🟢🟢🟢🟢 (319)</p>
+            <h5>from $450 per adult</h5>
+        </div>
+
+        <div class="sec7__blocks">
+            <img class="pics" src="images/sec7_img4.jpg" alt="">
+            <img class="heart" src="images/heart.png" alt="">
+            <p class="green">Darwin</p>
+            <h4>Kakadu day Tour from Darwin with Offroad Dreaming</h4>
+            <p>4.8🟢🟢🟢🟢🟢 (390)</p>
+            <h5>from $650 per adult</h5>
+        </div>
+
+    </div>
+
+    <div class="section__eight__title">
+        <h4>Browse Themed Collections</h4>
+    </div>
+    <div class="section__eight">
+
+        <div class="sec8__container">
+            <div class="sec8__blocks">
+                <img src="images/sec8_img1.jpg" alt="">
+                <h2>Pizza,roman style</h2>
+                <p>Classes and experiences for authentic pizza</p>
+            </div>
+            <div class="sec8__blocks">
+                <img src="images/sec8_img2.jpg" alt="">
+                <h2>Get right to the reef</h2>
+                <p>Ways to explore the great Barrier Reef</p>
+            </div>
+            <div class="sec8__blocks">
+                <img src="images/sec8_img3.jpg" alt="">
+                <h2>Take a G-diversion</h2>
+                <p>Tours to the Grand Canyon from Vegas</p>
+            </div>
+            <div class="sec8__blocks">
+                <img src="images/sec8_img4.jpg" alt="">
+                <h2>London,ater dark</h2>
+                <p>There's lots to do when the sun goes down</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer_color"> 
+    <div class="footer__box">
+        <div class="footer">
+            <div>
+                <h4>About Tripadvisor</h4>
+                <p>About</p>
+                <p>Press</p>
+                <p>Resources</p>
+                <p>Careers</p>
+                <p>Contact us</p>
+                <p>Trust & Safety</p>
+                <p>Tripadvisor Technology Blog</p>
+            </div>
+            <div>
+                <h4>Explore</h4>
+                <p>Write a review</p>
+                <p>Add a Place</p>
+                <p>Join</p>
+                <p>Help centre</p>
+                <p>Travel stories</p>
+                <p>Travellers'Choice</p>
+            </div>
+            <div>
+                <h4>Do Business with US</h4>
+                <p>Owners & DMO/CVB</p>
+                <p>Business Advantages</p>
+                <p>Sponsored Placements</p>
+                <p>Access Our Content Api</p>
+                <br>
+                <h4>GET THE APP</h4>
+                <p>iphone App</p>
+                <p>Android App</p>
+            </div>
+
+        </div>
+        <div class="footer2">
+            <h4>Tripadvisor Sites</h4>
+            <p>Book tours and attraction tickets on Viator</p>
+        </div>
+    </div>
+    <div class="footer_finalbox">
+        <div class="fff">
+            <div class="footer__box2">
+                <p>Terms of Use</p>
+                <p>privacy & policy</p>
+                <p>Cookie consent</p>
+                <p>Site map</p>
+                <p>contact us</p>
+                <p>How it works</p>
+                <P>Accessibility</P>
+            </div>
+            <div class="footer3">
+                <p>Tripadvisor LLC makes no guarantees for availability of prices advertised on our sites and
+                    applications. Listed prices may require a stay of a particular length or have blackout dates,
+                    qualifications or other applicable restrictions...</p>
+                <u>Read More ▼</u>
+            </div>
+        </div>
+
+        <div class="dropdown-section">
+            <div class="dropdown-group">
+                <label for="currency">Currency</label>
+                <select id="currency" name="currency">
+                    <option value="usd">USD - US Dollar</option>
+                    <option value="eur">EUR - Euro</option>
+                    <option value="inr">INR - Indian Rupee</option>
+                    <option value="gbp">GBP - British Pound</option>
+
+                </select>
+            </div>
+            <div class="dropdown-group">
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="us">United States</option>
+                    <option value="in">India</option>
+                    <option value="uk">United Kingdom</option>
+                    <option value="de">Germany</option>
+                    <option value="fr">France</option>
+
+                </select>
+            </div>
+        </div>
+        
+    </div>
+    <div class="social_media">
+            <img src="images/instagram.png" alt="">
+            <img src="images/facebook-app-symbol.png" alt="">
+            <img src="images/youtube.png" alt="">
+            <img src="images/twitter.png" alt="">
+            <img src="images/tik-tok.png" alt="">
+        </div>
+        </div>
+
+
+</body>
+
+</html>
