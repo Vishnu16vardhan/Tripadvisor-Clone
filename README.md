@@ -5,7 +5,7 @@ A responsive **TripAdvisor-inspired clone**, built entirely with **HTML5 and CSS
 ## ✨ Demo
 
 🔗 [Live Demo](https://vishnu16vardhan.github.io/Tripadvisor-Clone/)  
-📂 [View on GitHub](https://github.com/yourusername/tripadvisor-clone)
+📂 [View on GitHub](https://github.com/Vishnu16vardhan/Tripadvisor-Clone/tree/main)
 
 ## 🛠️ Tech Stack
 
